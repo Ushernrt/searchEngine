@@ -4,3 +4,5 @@ newripepage /home/xiu/searchEngine/data/newripepage.lib
 newoffset /home/xiu/searchEngine/data/newoffset.lib
 invertIndex /home/xiu/searchEngine/data/invertIndex.lib
 yuliaoku /home/xiu/searchEngine/yuliaoku/
+stopwords /home/xiu/searchEngine/data/stop_words_zh.txt
+stopwordsen /home/xiu/searchEngine/data/swop_words_en.txt

@@ -19,6 +19,7 @@ using std::pair;
 
 namespace wd{
 
+class WebPage;
 class Configuration;
 class DirScanner;
 
@@ -39,12 +40,14 @@ public:
 private:
 
 	void createLib(const string & filename);
+	void createNewLib();
 
 private:
 	Configuration & _conf;
 	DirScanner & _dirScanner;
 	vector<MyPage> _vecArticles;
 	map<int, pair<int, int>> _offsetLib;
+	vector<WebPage> _webPage;
 };
 
 }// end of namespace wd
